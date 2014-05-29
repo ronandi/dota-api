@@ -8,4 +8,4 @@
 (deftest get-heroes-test
   (testing "Get heroes"
       (let [heroes (get-heroes :token api-key)]
-        (is (> 100 (count heroes))))))
+        (is (> (count heroes) 100)))))
